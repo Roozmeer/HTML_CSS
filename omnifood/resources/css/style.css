@@ -1,6 +1,5 @@
 /*  Orange color: #e67e22
     Dark orange color: #cf6d17 */
-
 /* BASIC SETUP ----------------------------------------------- */
 
 * {
@@ -102,7 +101,7 @@ header {
   float: left;
   margin-top: 20px;
 }
- 
+
 .main-nav {
   float: right;
   list-style: none;
