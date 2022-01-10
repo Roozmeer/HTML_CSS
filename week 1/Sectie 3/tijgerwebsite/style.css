@@ -1,0 +1,79 @@
+html {
+  font-family: 'Arial', 'sans-serif';
+  margin-left: 250px;
+}
+
+.header {
+  color: #090;
+  font-size: 50px;
+  margin-bottom: 8px;
+  margin-left: -0.5%;
+}
+
+.kop1 {
+  color: #f00;
+  font-size: 30px;
+  margin-top: 0px;
+}
+
+.main-text {
+  color: #00f;
+  font-size: 16px;
+  margin-right: 250px;
+}
+
+.kop2 {
+  color: #00f;
+  font-size: 20px;
+  margin-bottom: 3px;
+}
+
+.links {
+  color: #00f;
+  font-size: 14px;
+  margin-top: 0px;
+}
+
+.npage:link,
+.npage:visited {
+  text-decoration: none;
+  color: #00f;
+}
+
+.npage:hover,
+.npage:active {
+  text-decoration: none;
+  color: #000;
+}
+
+.sub-text {
+  font-family: 'Comicsans MS';
+  color: #090;
+  letter-spacing: 2px;
+  font-size: 16px;
+}
+
+.dwn:link,
+.dwn:visited {
+  text-decoration: none;
+  color: #00f;
+  margin-left: 4.5%;
+}
+
+.dwn:hover,
+.dwn:active {
+  text-decoration: none;
+  color: #000;
+}
+
+.photo {
+  width: auto;
+  height: 150px;
+  border-radius: 25px;
+}
+
+.end-header {
+  color: #090;
+  font-size: 80px;
+  margin-top: 8px;
+}
