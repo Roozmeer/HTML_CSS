@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+ 
 .clearfix::after {
   content: "";
   display: table;
@@ -14,7 +14,7 @@ body {
   font-family: Helvetica Neue, Arial;
   font-size: 18px;
 }
- 
+
 h1,h2 {
   color: #00960b;
 }
