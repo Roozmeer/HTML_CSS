@@ -1,0 +1,76 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+  font-family: 'Mukta';
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-image{
+  background-image: url("../Sectie 3/tijgerwebsite/tigerphoto.jpg");
+  background-color: #000000;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.header-h1{
+  text-transform: lowercase;
+}
+
+a{
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.linkbox{
+  width: 45px;
+  border: 3px solid black;
+  margin-bottom: 15px;
+}
+
+.purple{
+  color: purple;
+}
+
+.green{
+  color: green;
+  text-decoration: none;
+}
+
+/*.block{
+  width: 150px;
+  height: 150px;
+  outline-style: solid;
+  outline-color: black;
+  position: relative;
+  margin: auto;
+  margin-top: 10px;
+}*/
+
+.button{
+  text-decoration: none;
+  color: white;
+  padding: 10px 30px;
+  border: 3px solid #FF8C00;
+  background-color: #FFA500; /*orange*/
+  border-radius: 200px;
+  border-color: #FF8C00; /*dark orange*/
+}
+
+.button:hover{
+  background-color: #FF8C00;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.fixed{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: green;
+  color: white;
+}
