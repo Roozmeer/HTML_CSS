@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.hero-image{
+  background-image: url("../../../../../../achtergronden/83269.jpg");
+  background-color: #000000;
+  filter: opacity(50%);
+  height: 721px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  clip-path:polygon(100% 5%, 0% 0%, 0% 100%, 100% 100%);
+  top: 0;
+  left: 0;
+}
+
+.blackbox {
+  position: absolute;
+  top: 290px;
+  left: 680px;
+  clip-path:inset(60% 20% 15% 10%);
+}
