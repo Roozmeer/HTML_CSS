@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman';
+  font-size: 40px;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  width: auto;
+  height: 710px;
+  border: 2px solid black;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex_child {
+  border: 3px solid green;
+  height: 50px;
+  line-height: 50px;
+  flex-basis: 250px;
+  flex-shrink: 0;
+  text-align: center;
+}

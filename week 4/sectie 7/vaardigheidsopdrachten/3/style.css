@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman'
+}
+
+.flex-container {
+  display: flex;
+  border: 2px solid black;
+}
+
+.flex_child {
+  border: 1px solid green;
+  height: 400px;
+  flex-basis: 180px;
+  flex-shrink: 0;
+}
