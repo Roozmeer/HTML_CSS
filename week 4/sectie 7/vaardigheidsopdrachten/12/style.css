@@ -7,12 +7,12 @@
 
 .flex-container {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row wrap-reverse;
   width: auto;
   height: 710px;
   border: 2px solid black;
-  justify-content: center;
-  align-content: center;
+  align-items: flex-end;
+  justify-content: space-around;
 }
 
 .flex_child {
@@ -22,5 +22,4 @@
   flex-basis: 250px;
   flex-shrink: 0;
   text-align: center;
-  align-content: center;
 }

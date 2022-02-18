@@ -11,16 +11,15 @@
   width: auto;
   height: 710px;
   border: 2px solid black;
-  justify-content: center;
-  align-content: center;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .flex_child {
   border: 3px solid green;
-  height: 50px;
-  line-height: 50px;
+  height: 350px;
+  line-height: 350px;
   flex-basis: 250px;
   flex-shrink: 0;
   text-align: center;
-  align-content: center;
 }

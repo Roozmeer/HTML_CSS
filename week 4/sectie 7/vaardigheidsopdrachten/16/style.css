@@ -11,16 +11,23 @@
   width: auto;
   height: 710px;
   border: 2px solid black;
-  justify-content: center;
-  align-content: center;
+  align-items: center;
+  justify-content: stretch;
 }
 
 .flex_child {
   border: 3px solid green;
-  height: 50px;
-  line-height: 50px;
-  flex-basis: 250px;
+  height: 353px;
+  line-height: 353px;
+  flex-basis: 297px;
+  flex-grow: 1;
   flex-shrink: 0;
   text-align: center;
-  align-content: center;
+}
+
+@media screen and (max-width: 609px) {
+  .flex_child {
+    height: 100px;
+    line-height: 100px;
+  }
 }
