@@ -22,7 +22,7 @@
   flex-basis: 297px;
   flex-grow: 1;
   flex-shrink: 0;
-  text-align: center;
+  text-align: center; 
 }
 
 @media screen and (max-width: 609px) {
