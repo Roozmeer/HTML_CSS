@@ -22,12 +22,12 @@
   flex-basis: 297px;
   flex-grow: 1;
   flex-shrink: 0;
-  text-align: center; 
+  text-align: center;
 }
 
 @media screen and (max-width: 609px) {
   .flex_child {
-    height: 100px;
+    height: 100px; 
     line-height: 100px;
     flex-basis: 300px;
   }
