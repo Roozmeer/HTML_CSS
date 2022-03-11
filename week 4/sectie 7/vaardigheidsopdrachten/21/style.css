@@ -8,7 +8,7 @@
 .flex-container {
   display: flex;
   flex-flow: row wrap;
-  width: 1269px;
+  width: auto;
   height: auto;
   border: 2px solid black;
   align-items: center;
@@ -19,16 +19,15 @@
   border: 3px solid green;
   height: 350px;
   line-height: 350px;
-  flex-basis: 250px;
+  flex-basis: 390px;
   flex-grow: 1;
-  flex-shrink: 0;
   text-align: center;
 }
 
-/*@media screen and (max-width: 609px) {
+@media screen and (max-width: 609px) {
   .flex_child {
     height: 100px;
     line-height: 100px;
     flex-basis: 300px;
   }
-}*/
+}
