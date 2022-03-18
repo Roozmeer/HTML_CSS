@@ -20,7 +20,7 @@
   height: 350px;
   line-height: 350px;
   flex-basis: 390px;
-  flex-grow: 1;
+  flex-grow: 1; 
   text-align: center;
 }
 
