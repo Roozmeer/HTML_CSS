@@ -17,25 +17,27 @@
 
 .flex_child {
   border: 3px solid green;
-  height: 700px;
-  line-height: 700px;
-  flex-basis: 250px;
-  flex-grow: 1;
+  height: 120px;
+  line-height: 120px;
   text-align: center;
 }
 
 .yellow {
   background-color: yellow;
+  flex-basis: 50px;
 }
 
 .red {
   background-color: red;
+  flex-basis: 200px;
 }
 
 .blue {
   background-color: blue;
+  flex-basis: 200px;
 }
 
 .purple {
   background-color: purple;
+  flex-basis: 50px;
 }

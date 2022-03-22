@@ -7,7 +7,7 @@
 
 .flex-container {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column-reverse;
   width: auto;
   height: auto;
   border: 2px solid black;
@@ -17,25 +17,34 @@
 
 .flex_child {
   border: 3px solid green;
-  height: 700px;
-  line-height: 700px;
-  flex-basis: 250px;
-  flex-grow: 1;
+  height: 120px;
+  line-height: 120px;
   text-align: center;
 }
 
 .yellow {
   background-color: yellow;
+  flex-basis: 50px;
+  line-height: 50px;
+  align-self: flex-end;
 }
 
 .red {
   background-color: red;
+  flex-basis: 150px;
+  line-height: 150px;
+  width: 1525px;;
 }
 
 .blue {
   background-color: blue;
+  flex-basis: 150px;
+  line-height: 150px;
+  align-self: flex-start;
 }
 
 .purple {
   background-color: purple;
+  flex-basis: 50px;
+  line-height: 50px;
 }

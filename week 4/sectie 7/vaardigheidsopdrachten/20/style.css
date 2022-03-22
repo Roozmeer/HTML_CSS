@@ -20,8 +20,28 @@
   height: 350px;
   line-height: 350px;
   flex-basis: 390px;
-  flex-grow: 1; 
+  flex-grow: 1;
   text-align: center;
+}
+
+.yellow {
+  background-color: yellow;
+  flex-shrink: 0;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+.purple {
+  background-color: purple;
+  height: 50px;
+  line-height: 50px;
+  align-self: flex-start;
+  flex-grow: 500;
 }
 
 @media screen and (max-width: 609px) {
