@@ -1,90 +1,125 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
 
-  <body>
-    <div class="flex-container">
-      <h1>Flexbox</h1>
-      <div class= "Properties">
-        <div class="container-1">
-          <h2>Container Properties</h2>
-          <div class="container-child-1">
-            <div class="text">
-              <h3>//creates a flexbox</h3>
-              <p>display: flex;</p>
-            </div>
+<html lang="en">
 
-            <div class="text">
-              <h3>//Direction, establishes main-axis</h3>
-              <p>flex-direction: row || row-reverse || column || column-reverse</p>
-            </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RMvL</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-            <div class="text">
-              <h3>//To wrap or not to wrap</h3>
-              <p>flex-wrap: nowrap || wrap || wrap-reverse</p>
-            </div>
+<body>
+  <h1 class="header">Flexbox</h1>
+  <div class="container">
+    <div class="flex-item">
+      <div class="item item-1">Container Properties</div>
 
-            <div class="text">
-              <h3>//Shorthanded (direction wrap)</h3>
-              <p>flex-flow: flex-direction flex-wrap</p>
-            </div>
-
-            <div class="text">
-              <h3>//alignement main axis</h3>
-              <p>justify-content: flex-start || flex-end || center || space-between || space-around || space-evenly</p>
-            </div>
-
-            <div class="text">
-              <h3>//alignement cross axis</h3>
-              <p>align-items: stretch || flex-start || flex-end || center || baseline</p>
-            </div>
-
-            <div class="text">
-              <h3>//alignement lines within the container</h3>
-              <p>align-content: normal || flex-start || flex-end || center || space-between || space-around || space-evenly || stretch</p>
-            </div>
-          </div>
+      <div class="item item-2">
+        <div class="small_item small_item-1">
+          //Creates a flexbox
         </div>
+        display: flex;
+      </div>
 
-        <div class="container-2">
-          <h2> Item Properties </h2>
-
-          <div class="container-child-2">
-
-            <div class="text">
-              <h3>//Order of the (flex) html-elements</h3>
-              <p>Order: interger (default: 0)</p>
-            </div>
-
-            <div class="text">
-              <h3>//Ability to grow if necessary</h3>
-              <p>flex-grow: (default: 0)</p>
-            </div>
-
-            <div class="text">
-              <h3>//Ability to shrink if necessary</h3>
-              <p>flex-shrink: positive interger (default: 1)</p>
-            </div>
-
-            <div class="text">
-              <h3>//Define default size of the item</h3>
-              <p>flex-basis: length || keyword (default: auto)</p>
-            </div>
-
-            <div class="text">
-              <h3>//Shorthanded (grow shrink basis)</h3>
-              <p>flex: flex-grow flex-shrink flex-basis (default 0 1 auto)</p>
-            </div>
-
-            <div class="text">
-              <h3>//Override default alignement form align-items</h3>
-              <p>align-self: auto || flex-start || flex-end || center || baseline || stretch</p>
-            </div>
-          </div>
+      <div class="item item-3">
+        <div class="small_item small_item-2">
+          //Direction, establishes main-axis
         </div>
+        flex-direction: row || row-reverse || column || column-reverse
+      </div>
+
+      <div class="item item-4">
+        <div class="small_item small_item-3">
+          //To wrap or not to wrap
+        </div>
+        flex-wrap: nowrap || wrap || wrap-reverse
+      </div>
+
+      <div class="item item-5">
+        <div class="small_item small_item-4">
+          //Shorthanded (direction wrap)
+        </div>
+        flex-flow: flex-direction || flex-wrap
+      </div>
+
+      <div class="item item-6">
+        <div class="small_item small_item-5">
+          //Alignment main-axic
+        </div>
+        justify-content: flex-start || flex-end || center || space-between || space-around || space-evenly
+      </div>
+
+      <div class="item item-7">
+        <div class="small_item small_item-6">
+          //Alignment cross-axis
+        </div>
+        Align-items: stretch || flex-start || flex-end || baseline
+      </div>
+
+      <div class="item item-8">
+        <div class="small_item small_item-7">
+          //Alignment lines within the container
+        </div>
+        Align-content: normal || flex-start || flex-end || center || space-between || space-around || space-evenly ||
+        stretch
+      </div>
+
+      <div class="item item-9">
+        <div class="small_item small_item-8">
+          H
+        </div>
+        H
+      </div>
+
+    </div>
+
+    <div class="flex-item">
+
+      <div class="item item-1">Item Properties</div>
+
+      <div class="item item-2">
+        <div class="small_item small_item-1">A</div>
+        A
+      </div>
+
+      <div class="item item-3">
+        <div class="small_item small_item-2">B</div>
+        B
+      </div>
+
+      <div class="item item-4">
+        <div class="small_item small_item-3">C</div>
+        C
+      </div>
+
+      <div class="item item-5">
+        <div class="small_item small_item-4">D</div>
+        D
+      </div>
+
+      <div class="item item-6">
+        <div class="small_item small_item-5">E</div>
+        E
+      </div>
+
+      <div class="item item-7">
+        <div class="small_item small_item-6">F</div>
+        F
+      </div>
+
+      <div class="item item-8">
+        <div class="small_item small_item-7">G</div>
+        G
+      </div>
+
+      <div class="item item-9">
+        <div class="small_item small_item-8">H</div>
+        H
       </div>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
