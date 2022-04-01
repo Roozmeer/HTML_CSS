@@ -12,7 +12,7 @@ html {
 
 body {
     font-family: 'Courier new', monospace;
-    line-height: 1.7;
+    line-height: 1.5;
     letter-spacing: 0.1rem;
     word-spacing: 0.1rem;
 
@@ -62,11 +62,25 @@ body {
 }
 
 .item-1 {
-    height: 50px;
+  height: 50px;
+}
+
+.item-6 {
+  height: 75px;
+}
+
+.item-8 {
+  height: 75px;
+}
+
+.item-9 {
+  height: 50px;
 }
 
 .small_item {
     background-color: fuchsia;
     font-weight: bold;
     flex-basis: 100%;
+    align-self: flex-start;
+    height: 25px;
 }

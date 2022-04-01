@@ -1,0 +1,69 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 162.5%;
+}
+
+body {
+    font-family: 'Courier new', monospace;
+    line-height: 1.7;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.1rem;
+
+    min-height: 100vh;
+    min-width: 100vw;
+
+    background-color: salmon;
+
+    display: grid;
+    grid-template-columns: 80%;
+    grid-template-rows: 80vh;
+    place-content: center;
+}
+
+.container {
+    display: grid;
+    border: 2px solid black;
+    grid-template-columns: repeat(3, 33.33%);
+    grid-auto-rows: repeat(4, 25%);
+    row-gap: 30px;
+}
+
+.item {
+    display: grid;
+    place-content: center;
+}
+
+.item--1 {
+    background-color: yellow;
+}
+
+.item--2 {
+    background-color: pink;
+}
+
+.item--3 {
+    background-color: red;
+}
+
+.item--4 {
+    background-color: blue;
+}
+
+.item--5 {
+    background-color: purple;
+}
+
+.item--6 {
+    background-color: green;
+}
+.item--7 {
+    background-color: aqua;
+}
