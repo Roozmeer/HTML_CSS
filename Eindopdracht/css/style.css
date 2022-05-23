@@ -1,0 +1,410 @@
+@import url('http://fonts.cdnfonts.com/css/minecraft-3?styles=41305,41306,41307,41308');
+
+/* @media screen and (max-width: 2000px) { */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Minecraft', sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #555;
+    background-color: #d8ffd8;
+}
+
+strong {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+u {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+/***************************************/
+/*------------HEADER-------------------*/
+/***************************************/
+
+.header {
+    background-color: #c5ffc5;
+    height: 9.6rem;
+    padding: 0 4.8rem;
+    font-weight: 700;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.header-test {}
+
+.logo-header {
+    width: 400px;
+}
+
+/***************************************/
+/*------------NAVIGATION---------------*/
+/***************************************/
+
+.main-nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.8rem;
+    transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+    color: #FD991F;
+}
+
+.ofc-website-button {
+    font-family: 'Minecraft';
+    padding: 15px 10px;
+    border-radius: 15px;
+    background-color: #FD991F;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #333;
+    font-weight: 700;
+    border: 1px solid white;
+}
+
+.ofc-website-button:hover {
+    transform: scale(1.1);
+}
+
+/***************************************/
+/*---------DROP DOWN NAV---------------*/
+/***************************************/
+
+.dropbutton {
+    color: #333;
+    padding: 0;
+    font-size: 1.8rem;
+    border: none;
+    font-weight: 700;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f0fbf0;
+    min-width: 108px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 5px;
+    text-decoration: none;
+    display: block;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.dropdown-content a:hover {
+    background-color: #b7f9b7;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbutton {
+    color: #FD991F;
+}
+
+/***************************************/
+/*-----------MAIN REPEATING------------*/
+/***************************************/
+
+main {
+    margin-top: 9.6rem;
+}
+
+.page-title {
+    padding-top: 1.8rem;
+    font-size: 5.6rem;
+    text-align: center;
+}
+
+.page-title-img {
+    margin-left: 180px;
+    width: 50%;
+}
+
+.subheadings {
+    padding-top: 1.8rem;
+    padding-left: 1.8rem;
+    font-size: 2.1rem;
+}
+
+/***************************************/
+/*------------MAIN ABOUT---------------*/
+/***************************************/
+
+.container-about {
+    font-size: 4.8rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 3.6rem;
+    padding-bottom: 1.8rem;
+}
+
+.item-about-1 {
+    padding-left: 3.4rem;
+    padding-right: 3.4rem;
+}
+
+.item-about-2 {
+    padding-left: 3.4rem;
+    padding-right: 3.4rem;
+}
+
+.ofc-website-button-main {
+    font-family: 'Minecraft';
+    margin: 1.8rem;
+    margin-left: 400px;
+    padding: 15px 10px;
+    border-radius: 15px;
+    background-color: #FD991F;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #333;
+    font-weight: 700;
+    border: none;
+
+}
+
+.ofc-website-button-main:hover {
+    transform: scale(1.2);
+    border: 2px solid white;
+}
+
+.ofc-wiki-button-main {
+    font-family: 'Minecraft';
+    margin: 1.6rem;
+    margin-top: 75px;
+    padding: 15px 10px;
+    border-radius: 15px;
+    background-color: #c5ffc5;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #333;
+    font-weight: 700;
+    border: none;
+}
+
+.ofc-wiki-button-main:hover {
+    transform: scale(1.2);
+    background-color: #FD991F;
+    border: 2px solid white;
+}
+
+/***************************************/
+/*-----------MAIN members--------------*/
+/***************************************/
+
+.container-members {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin: 4.8rem;
+    padding-top: 1.8rem;
+}
+
+.item-members {
+    place-self: center center;
+}
+
+.item-members:hover {
+    transform: scale(1.2);
+    background-color: #d8ffd8;
+    border: #b1ffb1 solid 3px;
+    border-radius: 10px;
+}
+
+.members-name {
+    padding: 3px;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+/***************************************/
+/*-----------MAIN SEASONS--------------*/
+/***************************************/
+
+.container-about-s6 {
+    font-size: 4.8rem;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px 370px 320px 250px 400px 40px;
+    padding: 0.5rem 4.8rem;
+    column-gap: 5px;
+}
+
+.season-about {
+    padding: 50px 30px 200px 30px;
+    order: 1;
+}
+
+.season-header {
+    padding: 50px 30px 200px 30px;
+    order: 2;
+}
+
+.world {
+    padding: 50px 30px 200px 30px;
+    order: 4;
+}
+
+.season-map {
+    order: 3;
+}
+
+.season-alliances {
+    padding: 10px 30px 200px 30px;
+    order: 5;
+}
+
+.season-alliances-logos {
+    padding: 50px 30px 200px 30px;
+    order: 6;
+}
+
+.season-events {
+    padding: 50px 30px 200px 30px;
+    order: 8;
+}
+
+.season-events-fotos {
+    padding: 10px 30px 200px 30px;
+    order: 7;
+}
+
+.season-games {
+    padding: 10px 30px 200px 30px;
+    order: 9;
+}
+
+.season-games-fotos {
+    order: 10;
+    padding-top: 30px;
+}
+
+.season-source {
+    padding: 0px 30px;
+    order: 11;
+}
+
+/* ----------------------- */
+
+.season-header-img {
+    width: 100%;
+}
+
+.season-map-img {
+    width: 90%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Alliances-logos {
+    display: flex;
+}
+
+.logo-alliances {
+    height: 200px;
+    border: #333 solid 1px;
+}
+
+.civil-war-bases {
+    display: flex;
+}
+
+.base {
+    height: 220px;
+    border: #333 solid 1px;
+}
+
+.demise-signup {
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.source-text {
+    font-size: 1.4rem;
+}
+
+.wiki-link:link,
+.wiki-link:visited {
+    text-decoration: none;
+    color: #555;
+    font-size: 1.4rem;
+    transition: all 0.3s;
+}
+
+.wiki-link:hover,
+.wiki-link:active {
+    color: #FD991F;
+}
+
+/***************************************/
+/*---------------FOOTER----------------*/
+/***************************************/
+
+.container-footer {
+    background-color: #c5ffc5;
+    font-size: 1.8rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-contact-1 {
+    font-size: 2.0rem;
+    padding: 3.6rem;
+    padding-left: 7.2rem;
+
+    flex-basis: 400px;
+}
+
+.item-contact-2 {
+    font-size: 2.0rem;
+    padding: 3.6rem;
+
+    flex-basis: 600px;
+}
+
+.item-logo-footer {
+    padding-right: 3.6rem;
+}
+
+.logo-footer {
+    width: 400px;
+}
+
+/* } */

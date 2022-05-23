@@ -1,0 +1,61 @@
+@media screen and (max-width: 1000px) {
+
+    /* -------INDEX------- */
+
+    .page-title-img {
+        margin-left: 80px;
+        width: 80%;
+    }
+
+    .container-about {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .ofc-website-button-main {
+        margin: 1.8rem;
+    }
+
+    .ofc-wiki-button-main {
+        margin: 1.8rem;
+    }
+
+    /*-------MEMBERS-------*/
+
+    .container-members {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    /*-------SEASON 6-------*/
+    .container-about-s6 {
+        grid-template-columns: 1fr;
+        grid-template-rows: 250px 300px 220px 460px 280px 260px 200px 250px 380px 380px 40px;
+    }
+
+    .world {
+        order: 3;
+    }
+
+    .season-map {
+        order: 4;
+    }
+
+    .season-events {
+        order: 7;
+    }
+
+    .season-events-fotos {
+        order: 8;
+    }
+
+    .season-source {
+        padding-top: 10px;
+        order: 11;
+    }
+
+    /* ----------------------- */
+
+    .demise-signup {
+        height: 350px;
+    }
+}
