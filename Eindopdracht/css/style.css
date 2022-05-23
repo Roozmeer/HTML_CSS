@@ -1,8 +1,7 @@
 @import url('http://fonts.cdnfonts.com/css/minecraft-3?styles=41305,41306,41307,41308');
 
-/* @media screen and (max-width: 2000px) { */
-
 * {
+    /* max-width: 100%; */
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -45,8 +44,6 @@ u {
     top: 0;
     width: 100%;
 }
-
-.header-test {}
 
 .logo-header {
     width: 400px;
@@ -148,7 +145,7 @@ main {
 
 .page-title-img {
     margin-left: 180px;
-    width: 50%;
+    width: 80%;
 }
 
 .subheadings {
@@ -170,13 +167,11 @@ main {
 }
 
 .item-about-1 {
-    padding-left: 3.4rem;
-    padding-right: 3.4rem;
+    padding: 0 3.4rem;
 }
 
 .item-about-2 {
-    padding-left: 3.4rem;
-    padding-right: 3.4rem;
+    padding: 0 3.4rem;
 }
 
 .ofc-website-button-main {
@@ -223,6 +218,15 @@ main {
 /*-----------MAIN members--------------*/
 /***************************************/
 
+.member-social-link:link,
+.member-social-link:hover,
+.member-social-link:active,
+.member-social-link:visited {
+    text-decoration: none !important;
+    color: #555;
+    ;
+}
+
 .container-members {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -239,6 +243,10 @@ main {
     background-color: #d8ffd8;
     border: #b1ffb1 solid 3px;
     border-radius: 10px;
+}
+
+.member {
+    width: 225px;
 }
 
 .members-name {
@@ -377,7 +385,6 @@ main {
 
 .container-footer {
     background-color: #c5ffc5;
-    font-size: 1.8rem;
 
     display: flex;
     justify-content: space-between;
@@ -406,5 +413,3 @@ main {
 .logo-footer {
     width: 400px;
 }
-
-/* } */

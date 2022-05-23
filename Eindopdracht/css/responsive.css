@@ -1,4 +1,8 @@
-@media screen and (max-width: 1000px) {
+/***************************************/
+/*------------TABLET SIZE--------------*/
+/***************************************/
+
+@media screen and (min-width: 501px) and (max-width: 1000px) {
 
     /* -------INDEX------- */
 
@@ -58,4 +62,244 @@
     .demise-signup {
         height: 350px;
     }
+}
+
+/***************************************/
+/*-------------PHONE SIZE--------------*/
+/***************************************/
+
+@media screen and (max-width: 500px) {
+
+    strong {
+        font-size: 1.3rem;
+        font-weight: 700;
+    }
+
+    u {
+        font-size: 1.3rem;
+        font-weight: 400;
+    }
+
+    /*-------HEADER-------*/
+
+    .header {
+        flex-flow: column nowrap;
+        height: 15.0rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .logo-header {
+        width: 350px;
+    }
+
+    .main-nav-link:link,
+    .main-nav-link:visited {
+        font-size: 1.4rem;
+    }
+
+    /*-------DROP DOWN NAV-------*/
+
+    .ofc-website-button {
+        font-size: 1.2rem;
+    }
+
+    .dropbutton {
+        font-size: 1.4rem;
+    }
+
+    .dropdown-content {
+        min-width: 75px;
+    }
+
+    .dropdown-content a {
+        padding: 12px 5px;
+        font-size: 1.3rem;
+    }
+
+    /*-------MAIN REPEATING-------*/
+
+    main {
+        margin-top: 15.0rem;
+    }
+
+    .page-title {
+        font-size: 3.2rem;
+    }
+
+    .page-title-img {
+        margin-left: 60px;
+    }
+
+    .subheadings {
+        font-size: 1.4rem;
+    }
+
+    /*-------INDEX-------*/
+
+    .container-about {
+        font-size: 3.8rem;
+        padding-left: 3.4rem;
+        grid-template-columns: 1fr;
+    }
+
+    .item-about-1 {
+        padding: 0;
+    }
+
+    .item-about-2 {
+        padding: 0;
+    }
+
+    .ofc-website-button-main {
+        margin-left: 1.0rem;
+    }
+
+    .ofc-website-button-main:hover {
+        transform: scale(1.05);
+    }
+
+    .ofc-wiki-button-main {
+        margin-top: 1.8rem;
+        margin-left: 1.0rem;
+    }
+
+    .ofc-wiki-button-main:hover {
+        transform: scale(1.05);
+    }
+
+    /*-------MEMBERS-------*/
+
+    .container-members {
+        grid-template-columns: repeat(3, 1fr);
+        margin: 4.8rem;
+        padding-top: 1.8rem;
+    }
+
+    .item-members:hover {
+        transform: scale(1.05);
+    }
+
+    .member {
+        width: 125px;
+    }
+
+    .members-name {
+        padding: 2px;
+        font-size: 1.1rem;
+    }
+
+    /*-------SEASON 6-------*/
+
+    .container-about-s6 {
+        font-size: 3.9rem;
+        grid-template-columns: 1fr;
+        grid-template-rows: 180px 130px 130px 230px 240px 120px 140px 160px 320px 320px 40px;
+        padding: 0.5rem 1.8rem;
+    }
+
+    .season-about {
+        padding: 20px 0 100px 3px;
+    }
+
+    .season-header {
+        padding: 0;
+        width: 430px;
+    }
+
+    .world {
+        padding: 10px 0 100px 3px;
+        order: 3;
+    }
+
+    .season-map {
+        width: 430px;
+        order: 4;
+    }
+
+    .season-alliances {
+        padding: 10px 0 100px 3px;
+    }
+
+    .season-alliances-logos {
+        padding: 0;
+    }
+
+    .season-events {
+        padding: 10px 0 100px 3px;
+        order: 7;
+    }
+
+    .season-events-fotos {
+        padding: 0;
+        order: 8;
+    }
+
+    .season-games {
+        padding: 10px 0 100px 3px;
+    }
+
+    .season-games-fotos {
+        order: 10;
+        padding-top: 10px;
+    }
+
+    .season-source {
+        padding: 10px 10px;
+        order: 11;
+    }
+
+    /* ----------------------- */
+
+    .logo-alliances {
+        height: 120px;
+    }
+
+    .base {
+        height: 150px;
+    }
+
+    .demise-signup {
+        width: 430px;
+    }
+
+    .source-text {
+        font-size: 1.1rem;
+    }
+
+    .wiki-link:link,
+    .wiki-link:visited {
+        text-decoration: none;
+        color: #555;
+        font-size: 1.1rem;
+        transition: all 0.3s;
+    }
+
+    /*-------FOOTER-------*/
+
+    .container-footer {
+        flex-direction: column;
+        align-items: baseline;
+        padding-left: 3.6rem;
+    }
+
+    .item-contact-1 {
+        padding: 3.6rem 0 0 0.8rem;
+        flex-basis: 100px;
+    }
+
+    .item-contact-2 {
+        font-size: 0;
+        padding: 0;
+        flex-basis: 0;
+    }
+
+    .item-logo-footer {
+        padding-right: 0;
+        padding-bottom: 3.6rem;
+    }
+
+    .logo-footer {
+        width: 250px;
+    }
+
 }
