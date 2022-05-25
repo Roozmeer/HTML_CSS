@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 2.0;
+}
+
+.bord {
+    border: 2px solid black;
+    width: 400px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(4, 100px);
+}
+
+.vak-wit {
+    background-color: white;
+}
+
+.vak-zwart {
+    background-color: black;
+}

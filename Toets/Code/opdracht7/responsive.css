@@ -1,0 +1,29 @@
+/******************************/
+/*----------GROOTTE 2---------*/
+/******************************/
+
+@media screen and (min-width: 872px) and (max-width: 1133px) {
+    .header {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/******************************/
+/*----------GROOTTE 3---------*/
+/******************************/
+
+@media screen and (min-width: 455px) and (max-width: 872px) {
+    .header {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/******************************/
+/*----------GROOTTE 4---------*/
+/******************************/
+
+@media screen and (max-width: 455px) {
+    .header {
+        grid-template-columns: 1fr;
+    }
+}

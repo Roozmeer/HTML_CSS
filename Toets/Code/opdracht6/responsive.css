@@ -1,0 +1,44 @@
+/******************************/
+/*----------GROOTTE 2---------*/
+/******************************/
+
+@media screen and (min-width: 873px) and (max-width: 1133px) {
+
+    .header {
+        flex-flow: row wrap;
+    }
+
+    .item {
+        width: calc(100% / 3);
+    }
+}
+
+/******************************/
+/*----------GROOTTE 3---------*/
+/******************************/
+
+@media screen and (min-width: 456px) and (max-width: 872px) {
+
+    .header {
+        flex-flow: row wrap;
+    }
+
+    .item {
+        width: 50%;
+    }
+}
+
+/******************************/
+/*----------GROOTTE 4---------*/
+/******************************/
+
+@media screen and (max-width: 455px) {
+
+    .header {
+        flex-flow: column nowrap;
+    }
+
+    .item {
+        width: 100%;
+    }
+}
